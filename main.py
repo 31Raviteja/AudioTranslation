@@ -6,9 +6,9 @@ from database.models import Translation
 
 def main():
 
-    print("=" * 60)
+    print("=" * 61)
     print("      AUDIO TRANSLATION PIPELINE")
-    print("=" * 60)
+    print("=" * 61)
 
     pipeline = AudioTranslationPipeline()
 
