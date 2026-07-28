@@ -19,8 +19,8 @@ class AudioTranslationPipeline:
         audio_file = INPUT_FOLDER / "sample.mp3"
         
 
-        logger.info("=" * 60)
-        logger.info("Pipeline Started")
+        # logger.info("=" * 60)
+        # logger.info("Pipeline Started")
 
         try:
 
@@ -48,7 +48,7 @@ class AudioTranslationPipeline:
                 translated
             )
 
-            execution_time = round(time.time() - start_time, 2)
+            execution_time = round(time.time() - start_time, 1)
 
             logger.info(
                 f"Pipeline Completed Successfully in {execution_time} seconds."
