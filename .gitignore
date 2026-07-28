@@ -1,0 +1,20 @@
+output
+logs
+input_audio
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Configuration and secrets
+.env
